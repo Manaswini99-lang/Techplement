@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  #quote {
+    margin: 20px 0;
+    font-size: 1.2rem;
+  }
+  
+  #author {
+    font-style: italic;
+    color: #666;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    background: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #005f73;
+  }
+  
+  .search input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
